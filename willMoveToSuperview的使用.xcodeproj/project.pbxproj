@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECBE9F20212F8E3700AFAE35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE9F1F212F8E3700AFAE35 /* AppDelegate.m */; };
+		ECBE9F23212F8E3700AFAE35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE9F22212F8E3700AFAE35 /* ViewController.m */; };
+		ECBE9F28212F8E3700AFAE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBE9F27212F8E3700AFAE35 /* Assets.xcassets */; };
+		ECBE9F2B212F8E3700AFAE35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBE9F29212F8E3700AFAE35 /* LaunchScreen.storyboard */; };
+		ECBE9F2E212F8E3700AFAE35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE9F2D212F8E3700AFAE35 /* main.m */; };
+		ECBE9F38212F8E3700AFAE35 /* willMoveToSuperview___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE9F37212F8E3700AFAE35 /* willMoveToSuperview___Tests.m */; };
+		ECBE9F43212F8E3700AFAE35 /* willMoveToSuperview___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE9F42212F8E3700AFAE35 /* willMoveToSuperview___UITests.m */; };
+		ECBE9F52212F8F9900AFAE35 /* ObserverView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE9F51212F8F9900AFAE35 /* ObserverView.m */; };
+		ECBE9F55212F918300AFAE35 /* QSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE9F54212F918300AFAE35 /* QSLabel.m */; };
+		ECBE9F58212F974800AFAE35 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE9F57212F974800AFAE35 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECBE9F34212F8E3700AFAE35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBE9F13212F8E3700AFAE35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBE9F1A212F8E3700AFAE35;
+			remoteInfo = "willMoveToSuperview的使用";
+		};
+		ECBE9F3F212F8E3700AFAE35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBE9F13212F8E3700AFAE35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBE9F1A212F8E3700AFAE35;
+			remoteInfo = "willMoveToSuperview的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECBE9F1B212F8E3700AFAE35 /* willMoveToSuperview的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "willMoveToSuperview的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBE9F1E212F8E3700AFAE35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECBE9F1F212F8E3700AFAE35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECBE9F21212F8E3700AFAE35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECBE9F22212F8E3700AFAE35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECBE9F27212F8E3700AFAE35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECBE9F2A212F8E3700AFAE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECBE9F2C212F8E3700AFAE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBE9F2D212F8E3700AFAE35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECBE9F33212F8E3700AFAE35 /* willMoveToSuperview的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "willMoveToSuperview的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBE9F37212F8E3700AFAE35 /* willMoveToSuperview___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "willMoveToSuperview___Tests.m"; sourceTree = "<group>"; };
+		ECBE9F39212F8E3700AFAE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBE9F3E212F8E3700AFAE35 /* willMoveToSuperview的使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "willMoveToSuperview的使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBE9F42212F8E3700AFAE35 /* willMoveToSuperview___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "willMoveToSuperview___UITests.m"; sourceTree = "<group>"; };
+		ECBE9F44212F8E3700AFAE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBE9F50212F8F9900AFAE35 /* ObserverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObserverView.h; sourceTree = "<group>"; };
+		ECBE9F51212F8F9900AFAE35 /* ObserverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObserverView.m; sourceTree = "<group>"; };
+		ECBE9F53212F918300AFAE35 /* QSLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSLabel.h; sourceTree = "<group>"; };
+		ECBE9F54212F918300AFAE35 /* QSLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSLabel.m; sourceTree = "<group>"; };
+		ECBE9F56212F974800AFAE35 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		ECBE9F57212F974800AFAE35 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECBE9F18212F8E3700AFAE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE9F30212F8E3700AFAE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE9F3B212F8E3700AFAE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECBE9F12212F8E3700AFAE35 = {
+			isa = PBXGroup;
+			children = (
+				ECBE9F1D212F8E3700AFAE35 /* willMoveToSuperview的使用 */,
+				ECBE9F36212F8E3700AFAE35 /* willMoveToSuperview的使用Tests */,
+				ECBE9F41212F8E3700AFAE35 /* willMoveToSuperview的使用UITests */,
+				ECBE9F1C212F8E3700AFAE35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECBE9F1C212F8E3700AFAE35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE9F1B212F8E3700AFAE35 /* willMoveToSuperview的使用.app */,
+				ECBE9F33212F8E3700AFAE35 /* willMoveToSuperview的使用Tests.xctest */,
+				ECBE9F3E212F8E3700AFAE35 /* willMoveToSuperview的使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECBE9F1D212F8E3700AFAE35 /* willMoveToSuperview的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE9F1E212F8E3700AFAE35 /* AppDelegate.h */,
+				ECBE9F1F212F8E3700AFAE35 /* AppDelegate.m */,
+				ECBE9F21212F8E3700AFAE35 /* ViewController.h */,
+				ECBE9F22212F8E3700AFAE35 /* ViewController.m */,
+				ECBE9F56212F974800AFAE35 /* TestViewController.h */,
+				ECBE9F57212F974800AFAE35 /* TestViewController.m */,
+				ECBE9F50212F8F9900AFAE35 /* ObserverView.h */,
+				ECBE9F51212F8F9900AFAE35 /* ObserverView.m */,
+				ECBE9F53212F918300AFAE35 /* QSLabel.h */,
+				ECBE9F54212F918300AFAE35 /* QSLabel.m */,
+				ECBE9F27212F8E3700AFAE35 /* Assets.xcassets */,
+				ECBE9F29212F8E3700AFAE35 /* LaunchScreen.storyboard */,
+				ECBE9F2C212F8E3700AFAE35 /* Info.plist */,
+				ECBE9F2D212F8E3700AFAE35 /* main.m */,
+			);
+			path = "willMoveToSuperview的使用";
+			sourceTree = "<group>";
+		};
+		ECBE9F36212F8E3700AFAE35 /* willMoveToSuperview的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE9F37212F8E3700AFAE35 /* willMoveToSuperview___Tests.m */,
+				ECBE9F39212F8E3700AFAE35 /* Info.plist */,
+			);
+			path = "willMoveToSuperview的使用Tests";
+			sourceTree = "<group>";
+		};
+		ECBE9F41212F8E3700AFAE35 /* willMoveToSuperview的使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE9F42212F8E3700AFAE35 /* willMoveToSuperview___UITests.m */,
+				ECBE9F44212F8E3700AFAE35 /* Info.plist */,
+			);
+			path = "willMoveToSuperview的使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECBE9F1A212F8E3700AFAE35 /* willMoveToSuperview的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBE9F47212F8E3700AFAE35 /* Build configuration list for PBXNativeTarget "willMoveToSuperview的使用" */;
+			buildPhases = (
+				ECBE9F17212F8E3700AFAE35 /* Sources */,
+				ECBE9F18212F8E3700AFAE35 /* Frameworks */,
+				ECBE9F19212F8E3700AFAE35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "willMoveToSuperview的使用";
+			productName = "willMoveToSuperview的使用";
+			productReference = ECBE9F1B212F8E3700AFAE35 /* willMoveToSuperview的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECBE9F32212F8E3700AFAE35 /* willMoveToSuperview的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBE9F4A212F8E3700AFAE35 /* Build configuration list for PBXNativeTarget "willMoveToSuperview的使用Tests" */;
+			buildPhases = (
+				ECBE9F2F212F8E3700AFAE35 /* Sources */,
+				ECBE9F30212F8E3700AFAE35 /* Frameworks */,
+				ECBE9F31212F8E3700AFAE35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBE9F35212F8E3700AFAE35 /* PBXTargetDependency */,
+			);
+			name = "willMoveToSuperview的使用Tests";
+			productName = "willMoveToSuperview的使用Tests";
+			productReference = ECBE9F33212F8E3700AFAE35 /* willMoveToSuperview的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECBE9F3D212F8E3700AFAE35 /* willMoveToSuperview的使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBE9F4D212F8E3700AFAE35 /* Build configuration list for PBXNativeTarget "willMoveToSuperview的使用UITests" */;
+			buildPhases = (
+				ECBE9F3A212F8E3700AFAE35 /* Sources */,
+				ECBE9F3B212F8E3700AFAE35 /* Frameworks */,
+				ECBE9F3C212F8E3700AFAE35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBE9F40212F8E3700AFAE35 /* PBXTargetDependency */,
+			);
+			name = "willMoveToSuperview的使用UITests";
+			productName = "willMoveToSuperview的使用UITests";
+			productReference = ECBE9F3E212F8E3700AFAE35 /* willMoveToSuperview的使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECBE9F13212F8E3700AFAE35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Qson;
+				TargetAttributes = {
+					ECBE9F1A212F8E3700AFAE35 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ECBE9F32212F8E3700AFAE35 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECBE9F1A212F8E3700AFAE35;
+					};
+					ECBE9F3D212F8E3700AFAE35 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECBE9F1A212F8E3700AFAE35;
+					};
+				};
+			};
+			buildConfigurationList = ECBE9F16212F8E3700AFAE35 /* Build configuration list for PBXProject "willMoveToSuperview的使用" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECBE9F12212F8E3700AFAE35;
+			productRefGroup = ECBE9F1C212F8E3700AFAE35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBE9F1A212F8E3700AFAE35 /* willMoveToSuperview的使用 */,
+				ECBE9F32212F8E3700AFAE35 /* willMoveToSuperview的使用Tests */,
+				ECBE9F3D212F8E3700AFAE35 /* willMoveToSuperview的使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECBE9F19212F8E3700AFAE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBE9F2B212F8E3700AFAE35 /* LaunchScreen.storyboard in Resources */,
+				ECBE9F28212F8E3700AFAE35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE9F31212F8E3700AFAE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE9F3C212F8E3700AFAE35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBE9F17212F8E3700AFAE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBE9F58212F974800AFAE35 /* TestViewController.m in Sources */,
+				ECBE9F52212F8F9900AFAE35 /* ObserverView.m in Sources */,
+				ECBE9F23212F8E3700AFAE35 /* ViewController.m in Sources */,
+				ECBE9F2E212F8E3700AFAE35 /* main.m in Sources */,
+				ECBE9F55212F918300AFAE35 /* QSLabel.m in Sources */,
+				ECBE9F20212F8E3700AFAE35 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE9F2F212F8E3700AFAE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBE9F38212F8E3700AFAE35 /* willMoveToSuperview___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE9F3A212F8E3700AFAE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBE9F43212F8E3700AFAE35 /* willMoveToSuperview___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECBE9F35212F8E3700AFAE35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBE9F1A212F8E3700AFAE35 /* willMoveToSuperview的使用 */;
+			targetProxy = ECBE9F34212F8E3700AFAE35 /* PBXContainerItemProxy */;
+		};
+		ECBE9F40212F8E3700AFAE35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBE9F1A212F8E3700AFAE35 /* willMoveToSuperview的使用 */;
+			targetProxy = ECBE9F3F212F8E3700AFAE35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECBE9F29212F8E3700AFAE35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBE9F2A212F8E3700AFAE35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECBE9F45212F8E3700AFAE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECBE9F46212F8E3700AFAE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBE9F48212F8E3700AFAE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BT726ND66X;
+				INFOPLIST_FILE = "willMoveToSuperview的使用/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Qson.willMoveToSuperview---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECBE9F49212F8E3700AFAE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BT726ND66X;
+				INFOPLIST_FILE = "willMoveToSuperview的使用/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Qson.willMoveToSuperview---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECBE9F4B212F8E3700AFAE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BT726ND66X;
+				INFOPLIST_FILE = "willMoveToSuperview的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Qson.willMoveToSuperview---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/willMoveToSuperview的使用.app/willMoveToSuperview的使用";
+			};
+			name = Debug;
+		};
+		ECBE9F4C212F8E3700AFAE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BT726ND66X;
+				INFOPLIST_FILE = "willMoveToSuperview的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Qson.willMoveToSuperview---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/willMoveToSuperview的使用.app/willMoveToSuperview的使用";
+			};
+			name = Release;
+		};
+		ECBE9F4E212F8E3700AFAE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BT726ND66X;
+				INFOPLIST_FILE = "willMoveToSuperview的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Qson.willMoveToSuperview---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "willMoveToSuperview的使用";
+			};
+			name = Debug;
+		};
+		ECBE9F4F212F8E3700AFAE35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BT726ND66X;
+				INFOPLIST_FILE = "willMoveToSuperview的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Qson.willMoveToSuperview---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "willMoveToSuperview的使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECBE9F16212F8E3700AFAE35 /* Build configuration list for PBXProject "willMoveToSuperview的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE9F45212F8E3700AFAE35 /* Debug */,
+				ECBE9F46212F8E3700AFAE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBE9F47212F8E3700AFAE35 /* Build configuration list for PBXNativeTarget "willMoveToSuperview的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE9F48212F8E3700AFAE35 /* Debug */,
+				ECBE9F49212F8E3700AFAE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBE9F4A212F8E3700AFAE35 /* Build configuration list for PBXNativeTarget "willMoveToSuperview的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE9F4B212F8E3700AFAE35 /* Debug */,
+				ECBE9F4C212F8E3700AFAE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBE9F4D212F8E3700AFAE35 /* Build configuration list for PBXNativeTarget "willMoveToSuperview的使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE9F4E212F8E3700AFAE35 /* Debug */,
+				ECBE9F4F212F8E3700AFAE35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECBE9F13212F8E3700AFAE35 /* Project object */;
+}
